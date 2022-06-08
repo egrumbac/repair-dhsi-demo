@@ -15,7 +15,7 @@
         },
         "text": {
           "headline": "Design Studio Development Timeline",
-          "text": {{ site.description | jsonify }}
+          "text": "Our team, in collaboration with stakeholders, has been in active development and conversation since 2019. For more, and to utilize the resources we've developed, see our development timeline."
         }
     },
     "events": [
