@@ -20,12 +20,12 @@ source-code: https://github.com/egrumbac/repair-dhsi-demo
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Brokenness and Repair  
+title: The Reparative Digital Archive Platform
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a demo site for archiving ASU Lincoln Design Studios - test
+tagline: a demo and experiment in mending and repair
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: Brokenness and Repair is a demo for creating small digital collection exhibits on GitHub Pages designed for discussing humane tech ethics
+description: The Reparative Digital Archive Platform reckons with our ever present and already historical moment of dissonance, when a push to return to “normal” is resisted by the ongoing disruptions of mutating disease and racial and economic disparity. 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: egrumbac
 
