@@ -4,7 +4,8 @@
 # Curate the timeline by adding a "where" expression to the assign on the first line.
 # For details, see https://collectionbuilder.github.io/cb-docs/docs/advanced/timelinejs/  
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.date' -%}
+{%- assign items = site.data.timelinejs | where_exp: "item","item.headline" -%}
+
 {
     "title": {
         "media": {
@@ -13,7 +14,7 @@
           "credit": {{ site.title | jsonify }}
         },
         "text": {
-          "headline": {{ site.title | append: ' Timeline' | jsonify }},
+          "headline": "Design Studio Development Timeline",
           "text": {{ site.description | jsonify }}
         }
     },
@@ -32,7 +33,7 @@
           "year": "{{ item.date }}"{% endif %}
         },
         "text": {
-          "headline": {{ item.title | jsonify }}{% if item.description %},
+          "headline": {{ item.headline | jsonify }}{% if item.description %},
           "text": {{ item.description | jsonify }}{% endif %}
         }
       }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}

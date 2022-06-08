@@ -17,3 +17,5 @@ Polonius: I mean, the matter that you read, my lord.
 Hamlet: Slanders, sir: for the satirical rogue says here that old men have grey beards....
 
 Polonius: [ Aside ] Though this be madness, yet there is method in’t.
+
+{% include feature/timelinejs.html %}
