@@ -3,14 +3,14 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+# credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid="/assets/img/christopher-burns-Kj2SaNHG-hg-unsplash.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;About the Design Studios" %}
 
 ## About the Collection
 
@@ -23,5 +23,14 @@ The template repository features four objects from the University of Idaho Libra
 
 For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+## About the Design Studios
+
+{% include feature/image.html objectid="coll007" width="50" %}
+
+Humane Tech Design Studios are events that bring together academics, technologists and changemakers to collaborate on the problems brought on by new technologies and intensified by the COVID-19 pandemic, such as screen addiction, Zoom exhaustion, misinformation and lost intimacy. The events create space for participants to reflect, imagine and co-create actionable “How might we” questions that they can activate in their own lives. 
+
+Each studio includes two to three movements where participants start with divergent thinking, move to convergent thinking, and activate those insights in the final movement. To activate, participants used their shared understanding to collaborate on larger, thematic questions aimed to improve their present lives and future.
+
+To further the impact of these events, the Lincoln Center for Applied Ethics is working to create a living, digital archive of participants’ insights and discoveries. The first iteration of that digital archive lives at this Miro board. The Human(e) Tech Design Studio series will continue in the fall, with hosts and themes to be announced later this summer.
+
+{% include cb/about_ds.md %} 
